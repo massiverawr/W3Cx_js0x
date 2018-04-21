@@ -9,6 +9,7 @@ function changeStyle () {
     divElem.style.border = "5px dashed purple";
     divElem.style.padding = "10px";
     divElem.style.backgroundColor = "lightGreen";
-    document.body.innerHTML += "<div>voila!</div>"; 
+    var itemChange = document.querySelector("#theDiv");
+    itemChange.innerHTML += "<br> Voila!";
 }
 
